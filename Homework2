@@ -1,4 +1,4 @@
-namespace Lecture2;
+ namespace Lecture2;
 
 class Program
 {
@@ -33,6 +33,7 @@ default:
   Console.WriteLine("Wrong Letter Grade!");
   break;
 }
+{
 Console.WriteLine("Please input the first num:");
 int n1=12;
 Console.WriteLine("Please input the second num:");
@@ -54,6 +55,7 @@ int n3=14;
   else{
     Console.WriteLine("The smallest value is: n3");
   }
+}
  }
 }
 
